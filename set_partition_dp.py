@@ -55,7 +55,7 @@ def findPartition(arr, n):
  
 # Driver code
 if __name__ == "__main__":
-    txt_file_name = "d_80.txt"
+    txt_file_name = "d_10.txt"
     dataset = []
 
     # Open and read the text file

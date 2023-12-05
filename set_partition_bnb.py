@@ -33,8 +33,7 @@ def partition_values_from_index(values, start_index, total_value, unassigned_val
             best_assignment[:] = test_assignment[:]
 
             print(best_err[0])
-            if best_err[0]==0:
-                return
+ 
     else:
         # See if there's any way we can assign
         # the remaining items to improve the solution.
